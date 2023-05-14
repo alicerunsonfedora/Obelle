@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://bux4j1nunhibr"]
+
+[node name="Demoscene" type="Node3D"]
+
+[node name="SpinningCube" type="SpinningCube" parent="."]
+transform = Transform3D(-0.169852, 0, 0.985482, 0, 1, 0, -0.985481, 0, -0.169852, 0, 0, 0)

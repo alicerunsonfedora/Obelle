@@ -1,0 +1,6 @@
+[configuration]
+entry_symbol = "swift_entry_point"
+
+[libraries]
+macos.debug = "res://bin/libDriver.dylib"
+macos.release = "res://bin/libDriver.dylib"
