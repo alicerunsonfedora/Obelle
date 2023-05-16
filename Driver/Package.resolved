@@ -3,10 +3,10 @@
     {
       "identity" : "swiftgodot",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/migueldeicaza/SwiftGodot",
+      "location" : "https://github.com/alicerunsonfedora/SwiftGodot",
       "state" : {
         "branch" : "main",
-        "revision" : "f62f615690130c5e0f3c69ec4ab4f165dd523c93"
+        "revision" : "d6f51de1b426a0eb908aa74d04b36dd1e3b2c428"
       }
     },
     {

@@ -26,9 +26,11 @@ class SpinningCube: Node3D {
         meshRender.mesh = BoxMesh()
         addChild(node: meshRender)
         self.meshRender = meshRender
+        GD.print("We have a mesh render!", meshRender)
     }
 
     public override func _process(delta: Double) {
         rotateY(angle: delta)
+        GD.print("Delta: \(delta)", self.rotation.y)
     }
 }
