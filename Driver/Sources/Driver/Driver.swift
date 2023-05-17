@@ -22,6 +22,6 @@ public func swift_entry_point(
 /// We register our new type when we are told that the scene is being loaded
 func setupScene(level: GDExtension.InitializationLevel) {
     if level == .scene {
-        register(type: SpinningCube.self)
+        [SpinningCube.self, SelfDrivingGodot.self].forEach(register)
     }
 }

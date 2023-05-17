@@ -31,6 +31,8 @@ class SpinningCube: Node3D {
 
     public override func _process(delta: Double) {
         rotateY(angle: delta)
-        GD.print("Delta: \(delta)", self.rotation.y)
+        if !Engine().isEditorHint() {
+            GD.print("Delta: \(delta)", self.rotation.y)
+        }
     }
 }
